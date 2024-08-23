@@ -1,0 +1,22 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "estudando electron",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "dev": "cross-env NODE_ENV=development electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "git repository": "https://github.com/Alberto-Brian/electron.git",
+  "author": "Alberto Brian",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "^32.0.1",
+    "electron-builder": "^24.13.3",
+    "electron-reloader": "^1.2.3"
+  }
+}
