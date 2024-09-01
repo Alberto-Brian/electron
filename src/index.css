@@ -1,0 +1,16 @@
+button{
+    border: 3px solid yellow;
+    background-color: #081644;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+button:active{
+    background-color: yellowgreen;
+}
+
+button:hover{
+    color: green;
+}

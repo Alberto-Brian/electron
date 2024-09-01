@@ -5,8 +5,8 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "electron .",
-    "dev": "cross-env NODE_ENV=development electron .",
+    "dev": "electron . --watch",
+    "dev:node": "cross-env NODE_ENV=development electron .",
     "build": "electron-builder",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
